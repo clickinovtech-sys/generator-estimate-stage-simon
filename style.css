@@ -27,12 +27,13 @@ img{
 
 input{
     background-color: #F1F4FB;
-    border-color: #F1F4FB;
+    border-color: transparent;
     border-radius: 50px;
+    
 }
 
 .basique{
-    width:300px;
+    width: 100%;
 }
 
 .ligne {
@@ -62,4 +63,15 @@ input{
 
 .bouton {
     margin-top: 6px;
+}
+
+.tabl {
+    width: 225px;
+}
+
+.separateur s{
+    width: 0px;
+    border-left: 2px solid #000000;
+    border-right: 1px solid #EA932F;
+    margin: 0 5px
 }

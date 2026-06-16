@@ -1,0 +1,59 @@
+h1, h2, p{
+    margin: 0;
+}
+
+.first-title{
+    text-decoration: underline;
+    font-weight: bold;
+}
+
+.int{
+color: lightblue;
+font-weight: 200;
+}
+
+h1{
+     display: flex;
+    justify-content:center;
+}
+img{
+    height: 115px;
+    margin-right: 20px;
+}
+
+.a {
+    font-size: small;
+}
+
+input{
+    background-color: lightgray;
+}
+
+.basique{
+    width:300px;
+}
+
+.ligne {
+    display: flex;
+    justify-content: space-between;
+    align-items: stretch;
+    margin-top: 30px;
+}
+
+.gauche, .droite{
+    width: 45%;
+}
+
+.separateur{
+    width: 0px;
+    border-left: 2px solid #000000;
+    border-right: 1px solid #ff6a00;
+    margin: 0 15px
+}
+
+.er{
+     display: flex;
+    justify-content: space-between;
+    align-items: stretch;
+    margin-top: 30px;
+}

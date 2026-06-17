@@ -66,7 +66,7 @@ input{
 }
 
 .tabl {
-    width: 225px;
+    width: 100%;
 }
 
 .separateur s{
@@ -74,4 +74,41 @@ input{
     border-left: 2px solid #000000;
     border-right: 1px solid #EA932F;
     margin: 0 5px
+}
+
+textarea{
+    height: 50px;
+    width: 100%;
+}
+
+.te{
+    width: 100%;
+}
+
+.Envoyer{
+    display: flex;
+    justify-content: end;
+    border-color: transparent;
+    border-radius: 50px;
+    height: 80px
+}
+
+.Envoyer > input{
+    width: 150px;
+}
+
+
+.bg-white{
+    background-color: white;
+    padding: 25px;
+    border-radius: 35px;
+
+}
+
+.body{
+    font-size: 18px;
+    margin-left: 20%;
+    margin-right: 20%;
+    background-image:url(./2149966932.jpg);
+    background-size: cover;
 }

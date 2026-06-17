@@ -1,28 +1,34 @@
-h1, h2, p{
+h1, h2, p, h3, h4, label{
     margin: 0;
+    font-family: "Roboto", sans-serif;
 }
-
-.first-title{
+ 
+.titre{
     text-decoration: underline;
     font-weight: bold;
+    margin-top: 20px;
+    margin-bottom: 20px;
 }
 
-.int{
-color: lightblue;
-font-weight: 200;
+.sous-titre{
+    font-weight: 800;
+}
+
+.sous_sous_titre{
+    margin-block-end: 0px;
+    font-weight: 600;
+}
+
+label{
+font-weight: 400;
+font-size: medium;
 }
 
 h1{
      display: flex;
     justify-content:center;
-}
-img{
     height: 115px;
     margin-right: 20px;
-}
-
-.a {
-    font-size: small;
 }
 
 input{
@@ -36,14 +42,14 @@ input{
     width: 100%;
 }
 
-.ligne {
+.haut {
     display: flex;
     justify-content: space-between;
     align-items: stretch;
     margin-top: 30px;
 }
 
-.gauche, .droite{
+.gauche, .droit{
     width: 45%;
 }
 
@@ -54,7 +60,7 @@ input{
     margin: 0 15px
 }
 
-.er{
+.centre{
      display: flex;
     justify-content: space-between;
     align-items: stretch;
@@ -65,11 +71,7 @@ input{
     margin-top: 6px;
 }
 
-.tabl {
-    width: 100%;
-}
-
-.separateur s{
+.separateur-2{
     width: 0px;
     border-left: 2px solid #000000;
     border-right: 1px solid #EA932F;
@@ -81,34 +83,34 @@ textarea{
     width: 100%;
 }
 
-.te{
-    width: 100%;
-}
-
-.Envoyer{
-    display: flex;
-    justify-content: end;
+.envoyer{
     border-color: transparent;
     border-radius: 50px;
-    height: 80px
-}
-
-.Envoyer > input{
+    height: 40px;
     width: 150px;
+    background-color: #EA932F;
+    font-size:large;
+    margin-top: 50px;
 }
 
+.parent-envoyer{
+    display: flex;
+    justify-content: end;
+}
 
 .bg-white{
     background-color: white;
     padding: 25px;
-    border-radius: 35px;
-
+    height: 100vh;
+    overflow-y: scroll;
 }
 
-.body{
+body{
     font-size: 18px;
     margin-left: 20%;
     margin-right: 20%;
     background-image:url(./2149966932.jpg);
     background-size: cover;
+    height: 100vh;
+    
 }

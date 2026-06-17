@@ -4,80 +4,83 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
     <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
 </head>
 
 
-<body class="body" style="font-size: 18px;margin-left: 20%; margin-right: 20%;background-image:url(./2149966932.jpg)">
+<body>
 <section class="bg-white">
     <h1><img src="logo-final-black 1 (2).png" alt=""></h1>
 <form>
-    <h2 class="first-title">Acheteur :</h2>
-    <div class="ligne">
+    <h2 class="titre">Acheteur :</h2>
+    <div class="haut">
         <div class="gauche">
             <h3>Information de l'entreprise :</h3>
-            <label class="a" for="Nom de l'entreprise">Nom de l'entreprise :</label>
-            <br><input class="basique" type="text" name="Nom de l'entreprise" id="Nom de l'entreprise">
-            <br><label class="a" for="SIRET">SIRET :</label>
+            <label for="nom_entreprise">Nom de l'entreprise :</label>
+            <br><input class="basique" type="text" name="nom_entreprise" id="nom_entreprise">
+            <br><label for="SIRET">SIRET :</label>
             <br><input class="basique" type="text" name="SIRET" id="SIRET">
-            <br><label class="a" for="Adresse email de l'entreprise">Adresse email de l'entreprise :</label>
-            <br><input class="basique" type="email" name="Adresse email de l'entreprise" id="Adresse email de l'entreprise">
+            <br><label for="adresse_email_entreprise">Adresse email de l'entreprise :</label>
+            <br><input class="basique" type="email" name="adresse_email_entreprise" id="adresse_email_entreprise">
         </div>
     <div class="separateur"></div>
-        <div class="droite">
+        <div class="droit">
             <h3>Information de contact :</h3>
-            <label class="a" for="Nom du contact">Nom du contact :</label>
-            <br><input class="basique" type="text" name="Nom du contact" id="Nom du contact">
-            <br><label class="a" for="Adresse email du contact">Adresse email du contact :</label>
-            <br><input class="basique" type="email" name="Adresse email du contact" id="Adresse email du contact">
-            <h4 style="margin-block-end: 0px;">Adresse :</h4>
-            <label class="a" for="Rue">Rue :</label>
+            <label for="nom_contact">Nom du contact :</label>
+            <br><input class="basique" type="text" name="nom_contact" id="nom_contact">
+            <br><label for="adresse_email_contact">Adresse email du contact :</label>
+            <br><input class="basique" type="email" name="adresse_email_contact" id="adresse_email_contact">
+            <h4 class="sous_sous_titre">Adresse :</h4>
+            <label for="Rue">Rue :</label>
             <br><input class="basique" type="text" name="Rue" id="Rue">
-            <br><label class="a" for="Ville">Ville :</label>
+            <br><label for="Ville">Ville :</label>
             <br><input class="basique" type="text" name="Ville" id="Ville">
-            <br><label class="a" for="Pays">Pays :</label>
+            <br><label for="Pays">Pays :</label>
             <br><input class="basique" type="text" name="Pays" id="Pays">
         </div>
     </div>
     <br>
     <br>
-    <h2 class="first-title">Ligne de produits :</h2>
-    <div class="er">
-        <div class="first">
-            <label class="a" for="Produit">Produit :</label>
-            <br><input class= "tabl" type="text" name="Produit" id="Produit">
+    <h2 class="titre">Ligne de produits :</h2>
+    <div class="centre">
+        <div class="centre-gauche">
+            <label for="Produit">Produit :</label>
+            <br><input class="basique" type="text" name="Produit" id="Produit">
         </div>
-        <div class="separateur s"></div>
-        <div class="second">
-            <label class="a" for="Quantité">Quantité :</label>
-            <br><input class= "tabl" type="number" name="Quantité" id="Quantité">
+        <div class="separateur-2"></div>
+        <div class="centre-centre">
+            <label for="Quantité">Quantité :</label>
+            <br><input class="basique" type="number" name="Quantité" id="Quantité">
         </div>
-        <div class="separateur s"></div>
-        <div class="third">
-            <label class="a" for="Prix unitaire">Prix unitaire :</label>
-            <br><input class= "tabl" type="number" name="Prix unitaire" id="Prix unitaire">
+        <div class="separateur-2"></div>
+        <div class="centre-droit">
+            <label for="Prix unitaire">Prix unitaire :</label>
+            <br><input class="basique" type="number" name="Prix unitaire" id="Prix unitaire">
         </div>
     </div>
     <div>
         <input class="bouton" type="button" value="Ajouter un produit" />
     </div>
-    <h2 class="first-title" style="margin-top: 20px; margin-bottom: 20px;">Net à payer :</h2>
+    <h2 class="titre">Net à payer :</h2>
     <label for="Informations complémentaires">Informations complémentaires :</label>
     <br><textarea name="Informations complémentaires" id="Informations complémentaires"></textarea>
-    <div class="ligne">
+    <div class="haut">
         <div class="gauche">
-            <h2 class="first-title" style="margin-top: 20px; margin-bottom: 20px;">Durée :</h2>
+            <h2 class="titre">Durée :</h2>
             <label for="Durée du projet">Durée du projet :</label>
-            <br><input class="te" type="number" name="Durée du projet" id="Durée du projet">
+            <br><input class="basique" type="number" name="Durée du projet" id="Durée du projet">
         </div>
         <div class="separateur"></div>
-        <div class="droite">
-            <h2 class="first-title" style="margin-top: 20px; margin-bottom: 20px;">Paiement :</h2>
+        <div class="droit">
+            <h2 class="titre">Paiement :</h2>
             <label for="Durée limite du paiement">Durée limite du paiement :</label>
-            <input class="te" style="margin-bottom: 20px;" type="number" name="Durée limite du paiement" id="Durée limite du paiement">
+            <input class="basique" type="number" name="Durée limite du paiement" id="Durée limite du paiement">
         </div>
     </div>
-    <div class="Envoyer">
-        <input type="button" value="Envoyer" class="" style="background-color: #EA932F; font-size:large;margin-top: 50px;">
+    <div class="parent-envoyer">
+        <input type="button" value="Envoyer" class="envoyer">
     </div>
 
 </form>

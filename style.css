@@ -1,5 +1,4 @@
 h1, h2, p, h3, h4, label{
-    margin: 0;
     font-family: "Roboto", sans-serif;
 }
  
@@ -12,6 +11,7 @@ h1, h2, p, h3, h4, label{
 
 .sous-titre{
     font-weight: 800;
+    margin-bottom: 20px;
 }
 
 .sous_sous_titre{
@@ -40,6 +40,8 @@ input{
 
 .basique{
     width: 100%;
+    height: 30px;
+    margin-bottom: 10px;
 }
 
 .haut {
@@ -100,17 +102,19 @@ textarea{
 
 .bg-white{
     background-color: white;
-    padding: 25px;
-    height: 100vh;
+    padding: 40px;
+    height: 80vh;
     overflow-y: scroll;
+    width: 70%;
 }
 
 body{
     font-size: 18px;
-    margin-left: 20%;
-    margin-right: 20%;
     background-image:url(./2149966932.jpg);
     background-size: cover;
     height: 100vh;
-    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
 }

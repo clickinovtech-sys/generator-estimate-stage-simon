@@ -32,12 +32,13 @@ plus.addEventListener("click", () => {
 });
 
 moins.addEventListener("click", () => {
-  nombre--;
-  number.innerHTML = nombre;
   if (nombre <= 0) {
     nombre = 0;
+  } else {
+    nombre--;
   }
-  if (nombre < 10) {
+  number.innerHTML = nombre;
+  if (nombre <= 10) {
     body.style.backgroundColor = "white";
   }
 });

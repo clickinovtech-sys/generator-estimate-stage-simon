@@ -1,91 +1,141 @@
 <html lang="fr">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
     <title>Document</title>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
-</head>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+  </head>
 
-
-<body>
-<section class="bg-white">
-    <h1><img src="logo-final-black 1 (2).png" alt=""></h1>
-<form>
-    <h2 class="titre">Acheteur :</h2>
-    <div class="haut">
-        <div class="gauche">
+  <body>
+    <section class="bg-white">
+      <h1><img src="logo-final-black 1 (2).png" alt="" /></h1>
+      <form>
+        <h2 class="titre">Acheteur :</h2>
+        <div class="haut">
+          <div class="gauche">
             <h3 class="sous-titre">Information de l'entreprise :</h3>
             <label for="nom_entreprise">Nom de l'entreprise :</label>
-            <input class="basique" type="text" name="nom_entreprise" id="nom_entreprise">
+            <input
+              class="basique"
+              type="text"
+              name="nom_entreprise"
+              id="nom_entreprise"
+            />
             <label for="SIRET">SIRET :</label>
-            <input class="basique" type="text" name="SIRET" id="SIRET">
-            <label for="adresse_email_entreprise">Adresse email de l'entreprise :</label>
-            <input class="basique" type="email" name="adresse_email_entreprise" id="adresse_email_entreprise">
-        </div>
-    <div class="separateur"></div>
-        <div class="droit">
+            <input class="basique" type="text" name="SIRET" id="SIRET" />
+            <label for="adresse_email_entreprise"
+              >Adresse email de l'entreprise :</label
+            >
+            <input
+              class="basique"
+              type="email"
+              name="adresse_email_entreprise"
+              id="adresse_email_entreprise"
+            />
+          </div>
+          <div class="separateur"></div>
+          <div class="droit">
             <h3 class="sous-titre">Information de contact :</h3>
             <label for="nom_contact">Nom du contact :</label>
-            <input class="basique" type="text" name="nom_contact" id="nom_contact">
-            <label for="adresse_email_contact">Adresse email du contact :</label>
-            <input class="basique" type="email" name="adresse_email_contact" id="adresse_email_contact">
+            <input
+              class="basique"
+              type="text"
+              name="nom_contact"
+              id="nom_contact"
+            />
+            <label for="adresse_email_contact"
+              >Adresse email du contact :</label
+            >
+            <input
+              class="basique"
+              type="email"
+              name="adresse_email_contact"
+              id="adresse_email_contact"
+            />
             <h4 class="sous_sous_titre">Adresse :</h4>
             <label for="Rue">Rue :</label>
-            <input class="basique" type="text" name="Rue" id="Rue">
+            <input class="basique" type="text" name="Rue" id="Rue" />
             <label for="Ville">Ville :</label>
-            <input class="basique" type="text" name="Ville" id="Ville">
+            <input class="basique" type="text" name="Ville" id="Ville" />
             <label for="Pays">Pays :</label>
-            <input class="basique" type="text" name="Pays" id="Pays">
+            <input class="basique" type="text" name="Pays" id="Pays" />
+          </div>
         </div>
-    </div>
-    
-    
-    <h2 class="titre">Ligne de produits :</h2>
-    <div class="centre">
-        <div class="centre-gauche">
+
+        <h2 class="titre">Ligne de produits :</h2>
+        <div class="centre">
+          <div class="centre-gauche">
             <label for="Produit">Produit :</label>
-            <input class="basique" type="text" name="Produit" id="Produit">
-        </div>
-        <div class="separateur-2"></div>
-        <div class="centre-centre">
+            <input class="basique" type="text" name="Produit" id="Produit" />
+          </div>
+          <div class="separateur-2"></div>
+          <div class="centre-centre">
             <label for="Quantité">Quantité :</label>
-            <input class="basique" type="number" name="Quantité" id="Quantité">
-        </div>
-        <div class="separateur-2"></div>
-        <div class="centre-droit">
+            <input
+              class="basique"
+              type="number"
+              name="Quantité"
+              id="Quantité"
+            />
+          </div>
+          <div class="separateur-2"></div>
+          <div class="centre-droit">
             <label for="Prix unitaire">Prix unitaire :</label>
-            <input class="basique" type="number" name="Prix unitaire" id="Prix unitaire">
+            <input
+              class="basique"
+              type="number"
+              name="Prix unitaire"
+              id="Prix unitaire"
+            />
+          </div>
         </div>
-    </div>
-    <div>
-        <input class="bouton" type="button" value="Ajouter un produit" />
-    </div>
-    <h2 class="titre">Net à payer :</h2>
-    <label for="Informations complémentaires">Informations complémentaires :</label>
-    <textarea name="Informations complémentaires" id="Informations complémentaires"></textarea>
-    <div class="haut">
-        <div class="gauche">
+        <div>
+          <input class="bouton" type="button" value="Ajouter un produit" />
+        </div>
+        <h2 class="titre">Net à payer :</h2>
+        <label for="Informations complémentaires"
+          >Informations complémentaires :</label
+        >
+        <textarea
+          name="Informations complémentaires"
+          id="Informations complémentaires"
+        ></textarea>
+        <div class="haut">
+          <div class="gauche">
             <h2 class="titre">Durée :</h2>
             <label for="Durée du projet">Durée du projet :</label>
-            <input class="basique" type="number" name="Durée du projet" id="Durée du projet">
-        </div>
-        <div class="separateur"></div>
-        <div class="droit">
+            <input
+              class="basique"
+              type="number"
+              name="Durée du projet"
+              id="Durée du projet"
+            />
+          </div>
+          <div class="separateur"></div>
+          <div class="droit">
             <h2 class="titre">Paiement :</h2>
-            <label for="Durée limite du paiement">Durée limite du paiement :</label>
-            <input class="basique" type="number" name="Durée limite du paiement" id="Durée limite du paiement">
+            <label for="Durée limite du paiement"
+              >Durée limite du paiement :</label
+            >
+            <input
+              class="basique"
+              type="number"
+              name="Durée limite du paiement"
+              id="Durée limite du paiement"
+            />
+          </div>
         </div>
-    </div>
-    <div class="parent-envoyer">
-        <input type="button" value="Envoyer" class="envoyer">
-    </div>
-
-</form>
-</section>
-</body>
-
-
+        <div class="parent-envoyer">
+          <input type="button" value="Envoyer" class="envoyer" />
+        </div>
+      </form>
+    </section>
+    <script src="./index.js"></script>
+  </body>
 </html>

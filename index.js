@@ -19,21 +19,21 @@ const plus = document.querySelector(".plus");
 const moins = document.querySelector(".moins");
 const number = document.querySelector(".number");
 const body = document.querySelector("body");
-let str = "0";
-let nombre = Number(str);
+let nombre = 0;
 number.innerHTML = nombre;
-
 console.log(nombre);
 
 plus.addEventListener("click", () => {
-  number.innerHTML = nombre++;
-  if (nombre > 10) {
+  nombre++;
+  number.innerHTML = nombre;
+  if (nombre >= 11) {
     body.style.backgroundColor = "red";
   }
 });
 
 moins.addEventListener("click", () => {
-  number.innerHTML = nombre--;
+  nombre--;
+  number.innerHTML = nombre;
   if (nombre <= 0) {
     nombre = 0;
   }
